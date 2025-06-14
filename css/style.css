@@ -4,6 +4,7 @@ h1{
     text-align: center;
     color: white;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 *{
     margin: 0;
@@ -23,6 +24,7 @@ justify-content: center;
 color: white;
 font-style: oblique;
 text-align: center;
+padding: 40px;
 
 }
 .overlay {
@@ -38,4 +40,57 @@ text-align: center;
 .hero-content {
     position: relative;
     z-index: 2; 
+    padding: 50px 20px;
+
 }
+.logo img {
+  height: 50px;
+  width: auto;
+  border-radius: 30px;
+    margin-right: 20px;
+ 
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #1b0702, #3e1c02);
+}
+.navLinkovi{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+   
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.navLinkovi li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navLinkovi li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+.hero-button{
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero-button:hover {
+    
+    cursor: pointer;
+    
+ 
+}
+
